@@ -3,6 +3,7 @@
 ## **Folders Structure**
 
 - **assets** (img, fonts etc.)
+- **redux** (all related to actions and reducers)
 - **screens** (all apps screens (pages))
     - **[FOLDER]** (all you need to create notes)
 - **styles** (styles for pages)

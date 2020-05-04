@@ -69,3 +69,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Cleaned up some unused code
+
+# [1.3.0] - 2020-04-30
+### Added
+- Redux folder and its content
+- A single task structure to ListView.tsc
+
+### Deleted
+- Task.tsc file
