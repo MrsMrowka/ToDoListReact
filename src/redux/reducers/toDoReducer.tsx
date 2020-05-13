@@ -1,4 +1,3 @@
-import { Alert } from 'react-native';
 import * as actionTypes from '../types'
 import { ItoDoReducer } from '../../screens/toDoList/ListView'
 
@@ -28,7 +27,6 @@ const toDoReducer = (state = defaultState(), action: any): IToDoReducer => {
                 todoList: state.todoList.filter(elem => elem.key != action.elemID)
             }
         }
-
 
         default:
             return state
