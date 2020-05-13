@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react';
-import { TextInput, Button, Alert, View, TouchableOpacity } from 'react-native';
+import { TextInput, Button, View, TouchableOpacity } from 'react-native';
 import { useDispatch } from 'react-redux'
 
 import { setNewElemTodoList } from '../../redux/actions/toDoActions'

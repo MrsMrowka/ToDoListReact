@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ScrollView, Text, View, FlatList, TouchableOpacity } from 'react-native';
+import { ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import { ListViewStyles } from '../../styles/ListViewStyles';
 import { TaskStyles } from '../../styles/TaskStyles';
 

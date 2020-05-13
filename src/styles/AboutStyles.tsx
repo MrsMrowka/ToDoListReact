@@ -30,5 +30,14 @@ export const AboutStyles = StyleSheet.create({
         width: Dimensions.get('screen').width - 30,
         height: Dimensions.get('screen').width - 30,
         bottom: 20,
+    },
+    image: {
+        top: 10,
+        width: 150,
+        height: 150,
+        borderBottomRightRadius: 30,
+        borderTopLeftRadius: 30,
+        borderWidth: 8,
+        borderColor: 'lightgrey',
     }
 });
