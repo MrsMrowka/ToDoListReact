@@ -6,7 +6,7 @@ const Home: FC = () => {
     return (
         <View style={HomeStyles.container}>
             <Image style={HomeStyles.circleImage} source={require('../../assets/smallANT.gif')} />
-            <Text style={{ marginTop: 30, fontSize: 20, textAlign: 'center', fontWeight: 'bold', fontStyle: 'italic' }}>
+            <Text style={HomeStyles.name}>
                 Małgorzata Stęień {"\n"}
                 WSEI Programowanie aplikacji mobilnych i webowych Stac.
             </Text>

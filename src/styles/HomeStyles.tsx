@@ -20,5 +20,12 @@ export const HomeStyles = StyleSheet.create({
     regularImage: {
         width: 200,
         height: 200,
+    },
+    name: {
+        marginTop: 30,
+        fontSize: 20,
+        textAlign: 'center',
+        fontWeight: 'bold',
+        fontStyle: 'italic'
     }
 });
